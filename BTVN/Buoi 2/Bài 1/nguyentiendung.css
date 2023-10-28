@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0313b0;
+}
+
+.container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 200px;
+}
+
+.container h1 {
+    font-size: 100px;
+}
+
+.container p {
+    font-size: 40px;
+}
+
+.container h3{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 350px;
+}
+
+.container h4{
+    margin-top: -50px;
+    font-size: 40px;
+    text-align: right;
+    margin-right: 350px;
+}
+
+.container i{
+    margin-top: 40px;
+    font-size: 30px;
+    letter-spacing: 20px;
+    margin-left: 50px;
+}
+
+.fa-facebook {
+    font-size: 24px; 
+    color: white; 
+    margin-right: 10px; 
+}
+
+.fa-instagram {
+    font-size: 24px; 
+    color: white; 
+    margin-right: 10px; 
+}
+
+.fa-github {
+    font-size: 24px; 
+    color: white; 
+    margin-right: 10px; 
+}
+
+a {
+    text-decoration: none;
+}   
+
+
+
+

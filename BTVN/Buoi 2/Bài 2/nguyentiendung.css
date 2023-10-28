@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(233, 230, 230);
+}
+
+.box {
+    box-sizing: border-box;
+    border-radius: 4px solid rgb(190, 56, 56);
+    background-color: rgb(249, 252, 255);
+    padding: 80px 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+.box h1 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blueviolet;
+    text-align: left;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+h1 {
+    margin-top: -40px;
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.check {
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+.login-button {
+    background-color : blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 130px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: blue;
+}
+
+.log-in {
+    font-size: 15px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 12px 50px;
+    border: 1px solid #a9a6a6;
+    border-radius: 5px;
+    font-size:12px;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.log-in p , p1 {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.crete {
+    margin-top: 20px;
+}
+.crete p {
+    text-align: left;
+    font-size: 12px;
+    color: blueviolet;
+}
+
+.crete h6 {
+    margin-top: -15px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.input-field {
+    margin-top : 10px;
+    margin-bottom: 10px;
+}
+.crete p:hover{
+    color:blue;
+}
+
+h6:hover{
+    color: blue;
+}
+
+.login-button {
+    border-radius: 4px;
+    width: 100%;
+    font-size: 13px;
+}
