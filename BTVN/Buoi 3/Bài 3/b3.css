@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    justify-content: center;
+    display: flex;
+}
+
+.menu{
+    display: flex;
+
+}
+.line1{
+    display: flex; 
+    justify-content: space-between;
+
+
+
+
+    font-weight: 9;
+}
+
+.container{
+    height:100vh;
+    width:80vw;
+    font-family: 'Inconsolata', monospace;
+}
+.image{
+    
+flex-wrap: wrap;
+display: flex;
+
+
+justify-content: space-between;
+
+}
+.imgg{
+  max-width: 30%;  
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.header{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.menu h3{
+    margin-left: 1em ;
+}
+.line2{
+    display: flex;
+    flex-direction: column;
+
+}
+.name{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 40px;
+   margin-top: 100px;
+   
+}
+.image2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.img2{
+    max-width: 10%;
+    
+}
+.service{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 50px;
+    margin-top: 60px;
+
+}
+.fa-solid{
+    font-size:xx-large;
+}
+.footer{
+    display: flex;
+    margin-bottom: 90px;
+    justify-content: space-between;
+}
+.icon i{
+    margin-right: 3em;
+    text-align: center;
+
+}

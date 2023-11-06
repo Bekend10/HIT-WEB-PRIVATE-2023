@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 150px;
+    display: flex;
+    justify-content :center;
+    text-align: center;
+}
+
+.box1 {
+    height: 50px;
+    width: 50px;
+    background-color: #ffce9e;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: #d18b47;
+}
+
+.row1 .row2 {
+    display: flex;
+}
