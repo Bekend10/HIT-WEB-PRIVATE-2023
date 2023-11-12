@@ -14,10 +14,6 @@ body{
 .line1{
     display: flex; 
     justify-content: space-between;
-
-
-
-
     font-weight: 9;
 }
 
@@ -26,19 +22,15 @@ body{
     width:80vw;
     font-family: 'Inconsolata', monospace;
 }
-.image{
-    
-flex-wrap: wrap;
-display: flex;
-
-
-justify-content: space-between;
-
+.image{  
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
 .imgg{
-  max-width: 30%;  
-margin-top: 30px;
-margin-bottom: 30px;
+    max-width: 30%;  
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .header{
     margin-top: 25px;
@@ -61,8 +53,7 @@ margin-bottom: 30px;
    flex-direction: column;
    align-items: center;
    margin-bottom: 40px;
-   margin-top: 100px;
-   
+   margin-top: 100px;  
 }
 .image2{
     display: flex;
@@ -71,14 +62,12 @@ margin-bottom: 30px;
 }
 .img2{
     max-width: 10%;
-    
 }
 .service{
     display: flex;
     justify-content:space-evenly;
     margin-bottom: 50px;
     margin-top: 60px;
-
 }
 .fa-solid{
     font-size:xx-large;
@@ -91,5 +80,4 @@ margin-bottom: 30px;
 .icon i{
     margin-right: 3em;
     text-align: center;
-
 }
