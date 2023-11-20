@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    /* flex-wrap :wrap-reverse; */
+    /* align-content: end; */
+    justify-content :center;
+    align-items: center;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.box2 {
+    height: 400px;
+}
