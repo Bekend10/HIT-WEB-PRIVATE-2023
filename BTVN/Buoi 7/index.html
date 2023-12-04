@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Tiến Dũng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <ul id="nav">
+            <li class="nav-item"><a href="#home">HOME</a></li>
+            <li class="nav-item"><a href="#band">BAND</a></li>
+            <li class="nav-item"><a href="#tour">TOUR</a></li>
+            <li class="nav-item"><a href="#contact">CONTACT</a></li>
+            <li class="nav-item "><a href="#">MORE
+                <i class="fa fa-caret-down"></i>
+            </a>
+                <ul c class="nav-child">
+                    <li class="nav-item-child"><a href="#">Merchandise</a></li>
+                    <li class="nav-item-child"><a href="#">Extras</a></li>
+                    <li class="nav-item-child"><a href="#">Media</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </ul>
+        </div>
+    </header>
+    <section id="home">
+        <div>
+            <img style="margin-top: 30px;" src="https://www.w3schools.com/w3images/chicago.jpg" alt="">
+        </div>
+        <div class="text">
+            <h3>Chicago</h3>
+            <p>Thank you, Chicago-A night we won't forget</p>
+        </div> 
+    </section>
+    <section id="band">
+        <h2 class="title">THE BAND</h2>
+        <p class="sum"><i>We love music</i></p>
+        <p class="content">
+            We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="flex container">
+            <div class="item">
+                <p>Name</p>
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="item-margin-bottom" alt="" style="width: 60%;">
+            </div>
+            <div class="item">
+                <p>Name</p>
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="" class="item-margin-bottom" style="width: 60%;">
+            </div>
+            <div class="item">
+                <p>Name</p>
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="" style="width: 60%;">
+            </div>
+        </div>
+    </section>
+    <section id="tour" style="background-color: #000000;">
+        <div class="title">TOUR DATES</div>
+        <div class="sum"><i>Remember to book your ticket</i></div>
+        <div class="container-ticket">
+            <ul class="ticket">
+                <li class="ticket-item">September
+                    <span class="tag">Sold out</span>
+                </li>
+                <li class="ticket-item">October
+                    <span class="tag">Sold out</span>
+                </li>
+                <li class="ticket-item">November
+                    <span class="rest">3</span>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="row">
+            <div class="third margin-bottom">
+                <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="" style="width: 100%;" class="hover-opacity">
+                <div class="consist">
+                    <p>
+                        <b>New York</b>
+                    </p>
+                    <p class="opacity">Fri 27 Nov 2016</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button>Buy Tickets</button>
+                </div>
+            </div>
+            <div class="third margin-bottom margin-left">
+                <img src="https://www.w3schools.com/w3images/paris.jpg" alt="" style="width: 100%;" class="hover-opacity">
+                <div class="consist">
+                    <p>
+                        <b>Paris</b>
+                    </p>
+                    <p class="opacity">Sat 28 Nov 2016</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button>Buy Tickets</button>
+                    </div>  
+            </div>
+            <div class="third margin-bottom margin-left">
+                <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="" style="width: 100%;" class="hover-opacity" >
+                <div class="consist">
+                    <p>
+                        <b>San Francisco</b>
+                    </p>
+                    <p class="opacity">Sun 29 Nov 2016</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button>Buy Tickets</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="title">CONTACT</div>
+        <div class="sum">Fan? Drop a note!</div>
+        <div class="row1 contact-content flex space-around">
+            <div class="col col-half contact-info left">
+                <p><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
+                <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
+            </div>
+            <div class="col col-half contact-form">
+                <form class="form">
+                    <div class="row1">
+                        <div class="col col-half">
+                            <input required type="text" required placeholder="Name" class="form-control">
+                        </div>
+                        <div class="col col-half">
+                            <input required type="email" required placeholder="Email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row1 mt-8">
+                        <div class="col col-full">
+                            <input required type="text" placeholder="Message" class="form-control">
+                        </div>
+                    </div>
+                    <input class="form-submit-btn mt-16" type="submit" value="SEND">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="map">
+        <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
+    </div>
+    <footer>
+        <div class="icons pad-64">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+    </footer>
+</body>
+</html>
